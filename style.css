@@ -1,0 +1,60 @@
+
+body {
+    background: url(./IMAGES/dashboard.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* .card{
+
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+} */
+.card{
+    background: transparent !important;
+    border: 2px solid white;
+       background-color: rgba(255,255,255,0.85);
+    border-radius:20px;
+    border:none;
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.input-group{
+    gap: 8px;
+}
+
+#city{
+    height: 45px;
+}
+
+#btn{
+    height: 45px;
+    border-radius: 10px;
+}  
+#result img{
+    width: 120px;
+}
+
+#result h1,
+#result h2{
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+#result p{
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+
+
+.qoute{
+    color: black;
+}
